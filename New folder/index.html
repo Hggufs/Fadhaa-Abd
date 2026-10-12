@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الفهد للحاسبات | أفضل أسعار الحواسيب</title>
+    <meta
+      name="description"
+      content="الفهد للحاسبات متجر عربي كامل لبيع الحواسيب المحمولة والمكتبية وأجهزة الألعاب والملحقات."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="العودة إلى الرئيسية">
+          <span class="brand-mark">الف</span>
+          <div>
+            <strong>الفهد للحاسبات</strong>
+            <small>متجر التقنية</small>
+          </div>
+        </a>
+
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <a href="index.html">الرئيسية</a>
+          <a href="#products">المنتجات</a>
+          <a href="#offers">العروض</a>
+          <a href="#reviews">التقييمات</a>
+          <a href="checkout.html">الدفع</a>
+          <a href="admin.html">لوحة الإدارة</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="icon-btn" href="index.html#products" aria-label="بحث">⌕</a>
+          <a class="cart-btn" href="cart.html" aria-label="سلة المشتريات">
+            <span>السلة</span>
+            <span class="cart-count" id="cartCount">0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">تجربة شراء ذكية</span>
+            <h1>أحدث الحواسيب بأسعار تنافسية</h1>
+            <p>
+              اكتشف أجهزة قوية للمكتب، الألعاب، التصميم والبرمجة مع ضمان رسمي
+              ودعم فني متواصل. كل منتج تم اختياره بعناية لتلبية احتياجك اليوم.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#products" class="primary-btn">تسوق الآن</a>
+              <a href="#offers" class="secondary-btn">عرض اليوم</a>
+            </div>
+
+            <ul class="stats">
+              <li><strong>+12K</strong><span>عميل راضٍ</span></li>
+              <li><strong>2 يوم</strong><span>توصيل سريع</span></li>
+              <li><strong>24/7</strong><span>دعم فني</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="منتج مميز">
+            <div class="floating-badge badge-top">أحدث الطراز</div>
+            <div class="device-card">
+              <div class="device-glow"></div>
+              <div class="device-screen">
+                <div class="screen-header">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="screen-body">
+                  <div class="screen-chart"></div>
+                </div>
+              </div>
+            </div>
+            <div class="floating-badge badge-bottom">خصم حتى 35%</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands container" aria-label="علامات تجارية">
+        <span>ASUS</span>
+        <span>HP</span>
+        <span>DELL</span>
+        <span>LENOVO</span>
+        <span>APPLE</span>
+        <span>ACER</span>
+      </section>
+
+      <section class="categories container" id="offers">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">تصفح حسب الحاجة</span>
+            <h2>فئات المنتجات</h2>
+          </div>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-item pink">
+            <div>
+              <span>للمكاتب</span>
+              <h3>أجهزة办公</h3>
+            </div>
+            <strong>مناسبة للإنتاجية</strong>
+          </article>
+          <article class="category-item blue">
+            <div>
+              <span>للألعاب</span>
+              <h3>Gamer</h3>
+            </div>
+            <strong>أداء فائق</strong>
+          </article>
+          <article class="category-item gold">
+            <div>
+              <span>للمصممين</span>
+              <h3>Design</h3>
+            </div>
+            <strong>شاشة دقة عالية</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="products container" id="products">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">منتجاتنا المميزة</span>
+            <h2>أفضل الحواسيب لهذا الأسبوع</h2>
+          </div>
+          <div class="filter-bar">
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="ابحث عن جهاز..."
+              aria-label="بحث في المنتجات"
+            />
+            <select id="categoryFilter" aria-label="تصفية حسب الفئة">
+              <option value="all">الكل</option>
+              <option value="مكتبية">مكتبية</option>
+              <option value="محمولة">محمولة</option>
+              <option value="Gamer">Gamer</option>
+              <option value="Design">Design</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="features container">
+        <div class="section-heading center">
+          <span class="eyebrow">لماذا نحن؟</span>
+          <h2>خدمات تجعل الشراء مريحاً</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h3>توصيل سريع</h3>
+            <p>توصيل خلال يومين إلى المدن الكبرى مع متابعة الطلب في كل خطوة.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>ضمان رسمي</h3>
+            <p>جميع الأجهزة تأتي بضمان الشركة ودعم فني متخصص.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">💳</div>
+            <h3>دفع آمن</h3>
+            <p>خيارات دفع متعددة مع حماية كاملة لبياناتك.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="reviews container" id="reviews">
+        <div class="section-heading center">
+          <span class="eyebrow">آراء العملاء</span>
+          <h2>ماذا يقول عملاؤنا</h2>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>“اشتريت لابتوب للبرمجة، سرعة عالية وجودة ممتازة، وخدمة العملاء كانت فوق التوقع.”</p>
+            <strong>أحمد م.</strong>
+          </article>
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>“التسليم كان سريعًا، والدعم الفني كان مفيدًا جدًا بعد البيع. أنصح به بالتأكيد.”</p>
+            <strong>سارة ع.</strong>
+          </article>
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>“الأسعار مناسبة جداً مقارنة بجودة الأجهزة، والمنتجات أصلية 100%.”</p>
+            <strong>أكرم ر.</strong>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">الف</span>
+            <div>
+              <strong>الفهد للحاسبات</strong>
+              <small>متجر التقنية</small>
+            </div>
+          </div>
+          <p>حلول تقنية متكاملة للأعمال والمستخدمين المنزليين مع ضمان ودعم مستمر.</p>
+        </div>
+
+        <div>
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="#products">المنتجات</a></li>
+            <li><a href="#offers">العروض</a></li>
+            <li><a href="#reviews">التقييمات</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>تواصل معنا</h3>
+          <ul>
+            <li>info@haseb-store.com</li>
+            <li>966+ 055 123 4567</li>
+            <li>الرياض، المملكة العربية السعودية</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container copyright">© 2026 الفهد للحاسبات. جميع الحقوق محفوظة.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

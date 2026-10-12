@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: al-fahd-store
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    disk:
+      name: shop-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DB_PATH
+        value: /var/data/shop.sqlite
+      - key: ADMIN_PASSWORD
+        sync: false

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سلة المشتريات | الفهد للحاسبات</title>
+    <meta name="description" content="سلة التسوق في الفهد للحاسبات" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">الف</span>
+          <div>
+            <strong>الفهد للحاسبات</strong>
+            <small>متجر التقنية</small>
+          </div>
+        </a>
+
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <a href="index.html">الرئيسية</a>
+          <a href="index.html#products">المنتجات</a>
+          <a href="index.html#offers">العروض</a>
+          <a href="checkout.html">الدفع</a>
+          <a href="admin.html">لوحة الإدارة</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="icon-btn" href="index.html#products" aria-label="بحث">⌕</a>
+          <a class="cart-btn" href="cart.html" aria-label="سلة المشتريات">
+            <span>السلة</span>
+            <span class="cart-count" id="cartCount">0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-section">
+      <div class="container cart-layout">
+        <section>
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">سلة المشتريات</span>
+              <h2>منتجاتك المختارة</h2>
+            </div>
+          </div>
+          <div class="cart-list" id="cartList"></div>
+        </section>
+
+        <aside id="cartSummary"></aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">الف</span>
+            <div>
+              <strong>الفهد للحاسبات</strong>
+              <small>متجر التقنية</small>
+            </div>
+          </div>
+          <p>حلول تقنية متكاملة للأعمال والمستخدمين المنزليين مع ضمان ودعم مستمر.</p>
+        </div>
+        <div>
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="index.html#products">المنتجات</a></li>
+            <li><a href="checkout.html">الدفع</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>تواصل معنا</h3>
+          <ul>
+            <li>info@haseb-store.com</li>
+            <li>966+ 055 123 4567</li>
+            <li>الرياض، المملكة العربية السعودية</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container copyright">© 2026 الفهد للحاسبات. جميع الحقوق محفوظة.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
